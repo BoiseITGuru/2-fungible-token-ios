@@ -9,9 +9,14 @@ import SwiftUI
 
 @main
 struct Fungible_TokenApp: App {
+    
+    init() {
+        FlowManager.shared.setup()
+    }
+    
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            RouterView()
         }
     }
 }

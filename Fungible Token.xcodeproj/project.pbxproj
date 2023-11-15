@@ -8,18 +8,40 @@
 
 /* Begin PBXBuildFile section */
 		2B15BFA12B05456A001F01DC /* Fungible_TokenApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B15BFA02B05456A001F01DC /* Fungible_TokenApp.swift */; };
-		2B15BFA32B05456A001F01DC /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B15BFA22B05456A001F01DC /* ContentView.swift */; };
-		2B15BFA52B05456B001F01DC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2B15BFA42B05456B001F01DC /* Assets.xcassets */; };
+		2B15BFA32B05456A001F01DC /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B15BFA22B05456A001F01DC /* MainView.swift */; };
 		2B15BFA92B05456B001F01DC /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2B15BFA82B05456B001F01DC /* Preview Assets.xcassets */; };
+		2B15BFB02B054B68001F01DC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2B15BFAF2B054B68001F01DC /* Assets.xcassets */; };
+		2B15BFB52B054BB4001F01DC /* ButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B15BFB22B054BB4001F01DC /* ButtonView.swift */; };
+		2B15BFB62B054BB4001F01DC /* RouterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B15BFB32B054BB4001F01DC /* RouterView.swift */; };
+		2B15BFB72B054BB4001F01DC /* SignInView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B15BFB42B054BB4001F01DC /* SignInView.swift */; };
+		2B15BFBA2B054BF0001F01DC /* CachedAsyncImage in Frameworks */ = {isa = PBXBuildFile; productRef = 2B15BFB92B054BF0001F01DC /* CachedAsyncImage */; };
+		2B15BFBD2B054C2C001F01DC /* FCL in Frameworks */ = {isa = PBXBuildFile; productRef = 2B15BFBC2B054C2C001F01DC /* FCL */; };
+		2B15BFC42B054C79001F01DC /* Scripts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B15BFC22B054C79001F01DC /* Scripts.swift */; };
+		2B15BFC52B054C79001F01DC /* Transactions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B15BFC32B054C79001F01DC /* Transactions.swift */; };
+		2B15BFC72B054C7F001F01DC /* FlowManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B15BFC62B054C7F001F01DC /* FlowManager.swift */; };
+		2B15BFC92B054D75001F01DC /* ErrorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B15BFC82B054D75001F01DC /* ErrorView.swift */; };
+		2B15BFCB2B05536B001F01DC /* Background View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B15BFCA2B05536B001F01DC /* Background View.swift */; };
+		2B15BFCD2B0553E5001F01DC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2B15BFCC2B0553E5001F01DC /* Assets.xcassets */; };
+		2B15BFCF2B055405001F01DC /* Colors.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2B15BFCE2B055405001F01DC /* Colors.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		2B15BF9D2B05456A001F01DC /* Fungible Token.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Fungible Token.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2B15BFA02B05456A001F01DC /* Fungible_TokenApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Fungible_TokenApp.swift; sourceTree = "<group>"; };
-		2B15BFA22B05456A001F01DC /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		2B15BFA42B05456B001F01DC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2B15BFA22B05456A001F01DC /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
 		2B15BFA62B05456B001F01DC /* Fungible_Token.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Fungible_Token.entitlements; sourceTree = "<group>"; };
 		2B15BFA82B05456B001F01DC /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		2B15BFAF2B054B68001F01DC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2B15BFB22B054BB4001F01DC /* ButtonView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ButtonView.swift; sourceTree = "<group>"; };
+		2B15BFB32B054BB4001F01DC /* RouterView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RouterView.swift; sourceTree = "<group>"; };
+		2B15BFB42B054BB4001F01DC /* SignInView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignInView.swift; sourceTree = "<group>"; };
+		2B15BFC22B054C79001F01DC /* Scripts.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Scripts.swift; sourceTree = "<group>"; };
+		2B15BFC32B054C79001F01DC /* Transactions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Transactions.swift; sourceTree = "<group>"; };
+		2B15BFC62B054C7F001F01DC /* FlowManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FlowManager.swift; sourceTree = "<group>"; };
+		2B15BFC82B054D75001F01DC /* ErrorView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ErrorView.swift; sourceTree = "<group>"; };
+		2B15BFCA2B05536B001F01DC /* Background View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Background View.swift"; sourceTree = SOURCE_ROOT; };
+		2B15BFCC2B0553E5001F01DC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2B15BFCE2B055405001F01DC /* Colors.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Colors.xcassets; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -27,6 +49,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2B15BFBD2B054C2C001F01DC /* FCL in Frameworks */,
+				2B15BFBA2B054BF0001F01DC /* CachedAsyncImage in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -52,9 +76,11 @@
 		2B15BF9F2B05456A001F01DC /* Fungible Token */ = {
 			isa = PBXGroup;
 			children = (
+				2B15BFC02B054C61001F01DC /* Flow */,
+				2B15BFB12B054B7A001F01DC /* Views */,
 				2B15BFA02B05456A001F01DC /* Fungible_TokenApp.swift */,
-				2B15BFA22B05456A001F01DC /* ContentView.swift */,
-				2B15BFA42B05456B001F01DC /* Assets.xcassets */,
+				2B15BFCC2B0553E5001F01DC /* Assets.xcassets */,
+				2B15BFCE2B055405001F01DC /* Colors.xcassets */,
 				2B15BFA62B05456B001F01DC /* Fungible_Token.entitlements */,
 				2B15BFA72B05456B001F01DC /* Preview Content */,
 			);
@@ -64,9 +90,41 @@
 		2B15BFA72B05456B001F01DC /* Preview Content */ = {
 			isa = PBXGroup;
 			children = (
+				2B15BFAF2B054B68001F01DC /* Assets.xcassets */,
 				2B15BFA82B05456B001F01DC /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		2B15BFB12B054B7A001F01DC /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				2B15BFB22B054BB4001F01DC /* ButtonView.swift */,
+				2B15BFC82B054D75001F01DC /* ErrorView.swift */,
+				2B15BFB32B054BB4001F01DC /* RouterView.swift */,
+				2B15BFB42B054BB4001F01DC /* SignInView.swift */,
+				2B15BFA22B05456A001F01DC /* MainView.swift */,
+				2B15BFCA2B05536B001F01DC /* Background View.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		2B15BFC02B054C61001F01DC /* Flow */ = {
+			isa = PBXGroup;
+			children = (
+				2B15BFC12B054C6D001F01DC /* Cadence */,
+				2B15BFC62B054C7F001F01DC /* FlowManager.swift */,
+			);
+			path = Flow;
+			sourceTree = "<group>";
+		};
+		2B15BFC12B054C6D001F01DC /* Cadence */ = {
+			isa = PBXGroup;
+			children = (
+				2B15BFC22B054C79001F01DC /* Scripts.swift */,
+				2B15BFC32B054C79001F01DC /* Transactions.swift */,
+			);
+			path = Cadence;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -85,6 +143,10 @@
 			dependencies = (
 			);
 			name = "Fungible Token";
+			packageProductDependencies = (
+				2B15BFB92B054BF0001F01DC /* CachedAsyncImage */,
+				2B15BFBC2B054C2C001F01DC /* FCL */,
+			);
 			productName = "Fungible Token";
 			productReference = 2B15BF9D2B05456A001F01DC /* Fungible Token.app */;
 			productType = "com.apple.product-type.application";
@@ -113,6 +175,10 @@
 				Base,
 			);
 			mainGroup = 2B15BF942B05456A001F01DC;
+			packageReferences = (
+				2B15BFB82B054BF0001F01DC /* XCRemoteSwiftPackageReference "swiftui-cached-async-image" */,
+				2B15BFBB2B054C2C001F01DC /* XCRemoteSwiftPackageReference "fcl-swift" */,
+			);
 			productRefGroup = 2B15BF9E2B05456A001F01DC /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -127,8 +193,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2B15BFB02B054B68001F01DC /* Assets.xcassets in Resources */,
+				2B15BFCF2B055405001F01DC /* Colors.xcassets in Resources */,
+				2B15BFCD2B0553E5001F01DC /* Assets.xcassets in Resources */,
 				2B15BFA92B05456B001F01DC /* Preview Assets.xcassets in Resources */,
-				2B15BFA52B05456B001F01DC /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -139,8 +207,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2B15BFA32B05456A001F01DC /* ContentView.swift in Sources */,
+				2B15BFC42B054C79001F01DC /* Scripts.swift in Sources */,
+				2B15BFA32B05456A001F01DC /* MainView.swift in Sources */,
+				2B15BFC52B054C79001F01DC /* Transactions.swift in Sources */,
+				2B15BFCB2B05536B001F01DC /* Background View.swift in Sources */,
 				2B15BFA12B05456A001F01DC /* Fungible_TokenApp.swift in Sources */,
+				2B15BFB52B054BB4001F01DC /* ButtonView.swift in Sources */,
+				2B15BFB62B054BB4001F01DC /* RouterView.swift in Sources */,
+				2B15BFB72B054BB4001F01DC /* SignInView.swift in Sources */,
+				2B15BFC92B054D75001F01DC /* ErrorView.swift in Sources */,
+				2B15BFC72B054C7F001F01DC /* FlowManager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -359,6 +435,38 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		2B15BFB82B054BF0001F01DC /* XCRemoteSwiftPackageReference "swiftui-cached-async-image" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/lorenzofiamingo/swiftui-cached-async-image";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.1.1;
+			};
+		};
+		2B15BFBB2B054C2C001F01DC /* XCRemoteSwiftPackageReference "fcl-swift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Outblock/fcl-swift";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.1.2;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		2B15BFB92B054BF0001F01DC /* CachedAsyncImage */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 2B15BFB82B054BF0001F01DC /* XCRemoteSwiftPackageReference "swiftui-cached-async-image" */;
+			productName = CachedAsyncImage;
+		};
+		2B15BFBC2B054C2C001F01DC /* FCL */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 2B15BFBB2B054C2C001F01DC /* XCRemoteSwiftPackageReference "fcl-swift" */;
+			productName = FCL;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 2B15BF952B05456A001F01DC /* Project object */;
 }
