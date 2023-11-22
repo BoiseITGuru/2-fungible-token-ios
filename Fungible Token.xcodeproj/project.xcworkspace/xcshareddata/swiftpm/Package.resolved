@@ -10,12 +10,39 @@
       }
     },
     {
+      "identity" : "dynamiccolor",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/yannickl/DynamicColor",
+      "state" : {
+        "revision" : "d9beca13ca85baa50ee29832d0db5129fba69630",
+        "version" : "5.0.1"
+      }
+    },
+    {
+      "identity" : "emerald-city-dao-component-library",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/Forge4Flow/Emerald-City-DAO-Component-Library",
+      "state" : {
+        "revision" : "78a9327dadb257936efbb653da61a818c5f6631d",
+        "version" : "0.1.0"
+      }
+    },
+    {
       "identity" : "fcl-swift",
       "kind" : "remoteSourceControl",
       "location" : "https://github.com/Outblock/fcl-swift",
       "state" : {
         "revision" : "c3d81cd339196988e7bd670b4c359c041a81f24d",
         "version" : "0.1.2"
+      }
+    },
+    {
+      "identity" : "finejson",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/omochi/FineJSON",
+      "state" : {
+        "revision" : "05101709243cb66d80c92e645210a3b80cf4e17f",
+        "version" : "1.14.0"
       }
     },
     {
@@ -28,6 +55,15 @@
       }
     },
     {
+      "identity" : "flowcomponents",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/Forge4Flow/FlowComponents.git",
+      "state" : {
+        "revision" : "bc86923588018c791d52b7e06d3db39f5f9c8203",
+        "version" : "0.1.0"
+      }
+    },
+    {
       "identity" : "gzipswift",
       "kind" : "remoteSourceControl",
       "location" : "https://github.com/1024jp/GzipSwift",
@@ -37,12 +73,30 @@
       }
     },
     {
+      "identity" : "onigmo-swift-build",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/maoyama/Onigmo-swift-build",
+      "state" : {
+        "revision" : "d0dd20ecbad3aa0de7083c3e522ef722ed738b8a",
+        "version" : "1.2.0"
+      }
+    },
+    {
       "identity" : "qrcode",
       "kind" : "remoteSourceControl",
       "location" : "https://github.com/WalletConnect/QRCode",
       "state" : {
         "revision" : "263f280d2c8144adfb0b6676109846cfc8dd552b",
         "version" : "14.3.1"
+      }
+    },
+    {
+      "identity" : "richjsonparser",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/omochi/RichJSONParser.git",
+      "state" : {
+        "revision" : "263e2ecfe88d0500fa99e4cbc8c948529d335534",
+        "version" : "3.0.0"
       }
     },
     {
@@ -88,6 +142,24 @@
       "state" : {
         "revision" : "467a3d17479887943ab917a379e62bbaff60ac8a",
         "version" : "2.1.1"
+      }
+    },
+    {
+      "identity" : "syntaxhighlight",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/Forge4Flow/SyntaxHighlight.git",
+      "state" : {
+        "revision" : "28d3c25294ee8095facc846a9b515fc2f64693fc",
+        "version" : "0.3.1"
+      }
+    },
+    {
+      "identity" : "tmsyntax",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/maoyama/TMSyntax",
+      "state" : {
+        "revision" : "47fa35533c126d0b068004d5b67277c1ffcfb903",
+        "version" : "0.1.0"
       }
     },
     {

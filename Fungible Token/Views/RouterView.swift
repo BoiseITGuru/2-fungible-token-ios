@@ -7,6 +7,8 @@
 
 import SwiftUI
 import FCL
+import FlowComponents
+import ecDAO
 
 struct RouterView: View {
     @State var loggedIn: Bool = false
@@ -25,18 +27,26 @@ struct RouterView: View {
                 }
             }
             .padding(.horizontal, 20)
+            
+            if pendingTx {
+                TransactionView()
+            }
         }
-        .sheet(isPresented: $showErrorView, onDismiss: { FlowManager.shared.txError = nil }, content: {
-            ErrorView(error: FlowManager.shared.txError ?? "")
+        .sheet(isPresented: $showErrorView, onDismiss: { flowManager.txError = nil }, content: {
+            ErrorView(error: flowManager.txError ?? "")
         })
         .onReceive(fcl.$currentUser) { user in
             self.loggedIn = (user != nil)
         }
-        .onReceive(FlowManager.shared.$pendingTx) { tx in
+        .onReceive(flowManager.$pendingTx) { tx in
             self.pendingTx = (tx != nil)
         }
-        .onReceive(FlowManager.shared.$txError) { error in
+        .onReceive(flowManager.$txError) { error in
             self.showErrorView = (error != nil)
         }
     }
+}
+
+#Preview {
+    RouterView()
 }

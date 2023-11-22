@@ -11,18 +11,17 @@
 		2B15BFA32B05456A001F01DC /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B15BFA22B05456A001F01DC /* MainView.swift */; };
 		2B15BFA92B05456B001F01DC /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2B15BFA82B05456B001F01DC /* Preview Assets.xcassets */; };
 		2B15BFB02B054B68001F01DC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2B15BFAF2B054B68001F01DC /* Assets.xcassets */; };
-		2B15BFB52B054BB4001F01DC /* ButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B15BFB22B054BB4001F01DC /* ButtonView.swift */; };
 		2B15BFB62B054BB4001F01DC /* RouterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B15BFB32B054BB4001F01DC /* RouterView.swift */; };
 		2B15BFB72B054BB4001F01DC /* SignInView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B15BFB42B054BB4001F01DC /* SignInView.swift */; };
 		2B15BFBA2B054BF0001F01DC /* CachedAsyncImage in Frameworks */ = {isa = PBXBuildFile; productRef = 2B15BFB92B054BF0001F01DC /* CachedAsyncImage */; };
 		2B15BFBD2B054C2C001F01DC /* FCL in Frameworks */ = {isa = PBXBuildFile; productRef = 2B15BFBC2B054C2C001F01DC /* FCL */; };
 		2B15BFC42B054C79001F01DC /* Scripts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B15BFC22B054C79001F01DC /* Scripts.swift */; };
 		2B15BFC52B054C79001F01DC /* Transactions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B15BFC32B054C79001F01DC /* Transactions.swift */; };
-		2B15BFC72B054C7F001F01DC /* FlowManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B15BFC62B054C7F001F01DC /* FlowManager.swift */; };
 		2B15BFC92B054D75001F01DC /* ErrorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B15BFC82B054D75001F01DC /* ErrorView.swift */; };
-		2B15BFCB2B05536B001F01DC /* Background View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B15BFCA2B05536B001F01DC /* Background View.swift */; };
 		2B15BFCD2B0553E5001F01DC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2B15BFCC2B0553E5001F01DC /* Assets.xcassets */; };
-		2B15BFCF2B055405001F01DC /* Colors.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2B15BFCE2B055405001F01DC /* Colors.xcassets */; };
+		2B2251E62B05B21A00FBB5B7 /* ecDAO in Frameworks */ = {isa = PBXBuildFile; productRef = 2B2251E52B05B21A00FBB5B7 /* ecDAO */; };
+		2B32E7192B0DB978003747EC /* ecDAO in Frameworks */ = {isa = PBXBuildFile; productRef = 2B32E7182B0DB978003747EC /* ecDAO */; };
+		2B59DFEA2B0C221A00866BBC /* CodeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B59DFE92B0C221A00866BBC /* CodeView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,16 +31,13 @@
 		2B15BFA62B05456B001F01DC /* Fungible_Token.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Fungible_Token.entitlements; sourceTree = "<group>"; };
 		2B15BFA82B05456B001F01DC /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		2B15BFAF2B054B68001F01DC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		2B15BFB22B054BB4001F01DC /* ButtonView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ButtonView.swift; sourceTree = "<group>"; };
 		2B15BFB32B054BB4001F01DC /* RouterView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RouterView.swift; sourceTree = "<group>"; };
 		2B15BFB42B054BB4001F01DC /* SignInView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignInView.swift; sourceTree = "<group>"; };
 		2B15BFC22B054C79001F01DC /* Scripts.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Scripts.swift; sourceTree = "<group>"; };
 		2B15BFC32B054C79001F01DC /* Transactions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Transactions.swift; sourceTree = "<group>"; };
-		2B15BFC62B054C7F001F01DC /* FlowManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FlowManager.swift; sourceTree = "<group>"; };
 		2B15BFC82B054D75001F01DC /* ErrorView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ErrorView.swift; sourceTree = "<group>"; };
-		2B15BFCA2B05536B001F01DC /* Background View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Background View.swift"; sourceTree = SOURCE_ROOT; };
 		2B15BFCC2B0553E5001F01DC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		2B15BFCE2B055405001F01DC /* Colors.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Colors.xcassets; sourceTree = "<group>"; };
+		2B59DFE92B0C221A00866BBC /* CodeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CodeView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -50,6 +46,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				2B15BFBD2B054C2C001F01DC /* FCL in Frameworks */,
+				2B32E7192B0DB978003747EC /* ecDAO in Frameworks */,
+				2B2251E62B05B21A00FBB5B7 /* ecDAO in Frameworks */,
 				2B15BFBA2B054BF0001F01DC /* CachedAsyncImage in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -76,11 +74,10 @@
 		2B15BF9F2B05456A001F01DC /* Fungible Token */ = {
 			isa = PBXGroup;
 			children = (
-				2B15BFC02B054C61001F01DC /* Flow */,
+				2B15BFC12B054C6D001F01DC /* Cadence */,
 				2B15BFB12B054B7A001F01DC /* Views */,
 				2B15BFA02B05456A001F01DC /* Fungible_TokenApp.swift */,
 				2B15BFCC2B0553E5001F01DC /* Assets.xcassets */,
-				2B15BFCE2B055405001F01DC /* Colors.xcassets */,
 				2B15BFA62B05456B001F01DC /* Fungible_Token.entitlements */,
 				2B15BFA72B05456B001F01DC /* Preview Content */,
 			);
@@ -99,23 +96,13 @@
 		2B15BFB12B054B7A001F01DC /* Views */ = {
 			isa = PBXGroup;
 			children = (
-				2B15BFB22B054BB4001F01DC /* ButtonView.swift */,
 				2B15BFC82B054D75001F01DC /* ErrorView.swift */,
 				2B15BFB32B054BB4001F01DC /* RouterView.swift */,
 				2B15BFB42B054BB4001F01DC /* SignInView.swift */,
 				2B15BFA22B05456A001F01DC /* MainView.swift */,
-				2B15BFCA2B05536B001F01DC /* Background View.swift */,
+				2B59DFE92B0C221A00866BBC /* CodeView.swift */,
 			);
 			path = Views;
-			sourceTree = "<group>";
-		};
-		2B15BFC02B054C61001F01DC /* Flow */ = {
-			isa = PBXGroup;
-			children = (
-				2B15BFC12B054C6D001F01DC /* Cadence */,
-				2B15BFC62B054C7F001F01DC /* FlowManager.swift */,
-			);
-			path = Flow;
 			sourceTree = "<group>";
 		};
 		2B15BFC12B054C6D001F01DC /* Cadence */ = {
@@ -146,6 +133,8 @@
 			packageProductDependencies = (
 				2B15BFB92B054BF0001F01DC /* CachedAsyncImage */,
 				2B15BFBC2B054C2C001F01DC /* FCL */,
+				2B2251E52B05B21A00FBB5B7 /* ecDAO */,
+				2B32E7182B0DB978003747EC /* ecDAO */,
 			);
 			productName = "Fungible Token";
 			productReference = 2B15BF9D2B05456A001F01DC /* Fungible Token.app */;
@@ -178,6 +167,7 @@
 			packageReferences = (
 				2B15BFB82B054BF0001F01DC /* XCRemoteSwiftPackageReference "swiftui-cached-async-image" */,
 				2B15BFBB2B054C2C001F01DC /* XCRemoteSwiftPackageReference "fcl-swift" */,
+				2B32E7172B0DB978003747EC /* XCRemoteSwiftPackageReference "Emerald-City-DAO-Component-Library" */,
 			);
 			productRefGroup = 2B15BF9E2B05456A001F01DC /* Products */;
 			projectDirPath = "";
@@ -194,7 +184,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				2B15BFB02B054B68001F01DC /* Assets.xcassets in Resources */,
-				2B15BFCF2B055405001F01DC /* Colors.xcassets in Resources */,
 				2B15BFCD2B0553E5001F01DC /* Assets.xcassets in Resources */,
 				2B15BFA92B05456B001F01DC /* Preview Assets.xcassets in Resources */,
 			);
@@ -210,13 +199,11 @@
 				2B15BFC42B054C79001F01DC /* Scripts.swift in Sources */,
 				2B15BFA32B05456A001F01DC /* MainView.swift in Sources */,
 				2B15BFC52B054C79001F01DC /* Transactions.swift in Sources */,
-				2B15BFCB2B05536B001F01DC /* Background View.swift in Sources */,
 				2B15BFA12B05456A001F01DC /* Fungible_TokenApp.swift in Sources */,
-				2B15BFB52B054BB4001F01DC /* ButtonView.swift in Sources */,
 				2B15BFB62B054BB4001F01DC /* RouterView.swift in Sources */,
 				2B15BFB72B054BB4001F01DC /* SignInView.swift in Sources */,
 				2B15BFC92B054D75001F01DC /* ErrorView.swift in Sources */,
-				2B15BFC72B054C7F001F01DC /* FlowManager.swift in Sources */,
+				2B59DFEA2B0C221A00866BBC /* CodeView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -356,10 +343,11 @@
 				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				INFOPLIST_KEY_UIStatusBarStyle = "";
 				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
 				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
 				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
@@ -368,10 +356,11 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "codes.ella.Fungible-Token";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = auto;
-				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -394,10 +383,11 @@
 				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				INFOPLIST_KEY_UIStatusBarStyle = "";
 				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
 				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
 				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
@@ -406,10 +396,11 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "codes.ella.Fungible-Token";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = auto;
-				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
@@ -453,6 +444,14 @@
 				minimumVersion = 0.1.2;
 			};
 		};
+		2B32E7172B0DB978003747EC /* XCRemoteSwiftPackageReference "Emerald-City-DAO-Component-Library" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Forge4Flow/Emerald-City-DAO-Component-Library";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.1.0;
+			};
+		};
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
@@ -465,6 +464,15 @@
 			isa = XCSwiftPackageProductDependency;
 			package = 2B15BFBB2B054C2C001F01DC /* XCRemoteSwiftPackageReference "fcl-swift" */;
 			productName = FCL;
+		};
+		2B2251E52B05B21A00FBB5B7 /* ecDAO */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = ecDAO;
+		};
+		2B32E7182B0DB978003747EC /* ecDAO */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 2B32E7172B0DB978003747EC /* XCRemoteSwiftPackageReference "Emerald-City-DAO-Component-Library" */;
+			productName = ecDAO;
 		};
 /* End XCSwiftPackageProductDependency section */
 	};

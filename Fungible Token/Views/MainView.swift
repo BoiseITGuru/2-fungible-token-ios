@@ -7,6 +7,8 @@
 
 import SwiftUI
 import FCL
+import FlowComponents
+import ecDAO
 
 struct MainView: View {
     
@@ -38,20 +40,18 @@ struct HeaderView: View {
             Text("Emerald Academy")
                 .font(.title)
                 .foregroundStyle(Color.eaPrimary)
+                .padding(.trailing, 10)
             
-            Button {
-                Task {
-                    try await fcl.unauthenticate()
-                }
-            } label: {
+            ButtonView {
                 Image(systemName: "rectangle.portrait.and.arrow.forward")
                     .foregroundStyle(Color.black)
                     .padding(10)
+            } action: {
+                Task {
+                    try await fcl.unauthenticate()
+                }
             }
-            .background(Color.eaPrimary)
-            .cornerRadius(15)
-            .padding(10)
-            .buttonStyle(PlainButtonStyle())
+            .frame(maxWidth: 20)
         }
     }
 }
@@ -75,13 +75,14 @@ struct setupVaultView: View {
                         Text("View Transaction")
                     }
                 })
-                .foregroundStyle(.eaPrimary)
+                .foregroundStyle(Color.eaPrimary)
                 .buttonStyle(PlainButtonStyle())
                 .padding(.bottom, 3)
                 
                 ButtonView(title: "Setup Vault") {
                     //TODO
                 }
+                .frame(maxWidth: .infinity, maxHeight: 40)
             }
         })
     }
@@ -112,13 +113,14 @@ struct getBalanceView: View {
                         Text("View Script")
                     }
                 })
-                .foregroundStyle(.eaPrimary)
+                .foregroundStyle(Color.eaPrimary)
                 .buttonStyle(PlainButtonStyle())
                 .padding(.bottom, 3)
                 
                 ButtonView(title: "Get Balance") {
                     //TODO
                 }
+                .frame(maxWidth: .infinity, maxHeight: 40)
             }
         })
     }
@@ -139,13 +141,14 @@ struct yourVaultView: View {
                         Text("View Script")
                     }
                 })
-                .foregroundStyle(.eaPrimary)
+                .foregroundStyle(Color.eaPrimary)
                 .buttonStyle(PlainButtonStyle())
                 .padding(.bottom, 3)
                 
                 ButtonView(title: "Get Balance") {
                     //TODO
                 }
+                .frame(maxWidth: .infinity, maxHeight: 40)
             }
         })
     }

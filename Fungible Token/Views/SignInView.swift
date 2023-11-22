@@ -7,6 +7,7 @@
 
 import SwiftUI
 import FCL
+import FlowComponents
 
 struct SignInView: View {
     var body: some View {
@@ -30,4 +31,8 @@ struct SignInView: View {
             }
         }
     }
+}
+
+#Preview {
+    SignInView()
 }
